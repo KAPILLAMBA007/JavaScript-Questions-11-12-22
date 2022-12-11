@@ -1,0 +1,5 @@
+function product(x,y){
+    multiply=x+y;
+    return add;
+}
+console.log(product(2,5))
