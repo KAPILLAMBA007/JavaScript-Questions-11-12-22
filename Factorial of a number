@@ -1,0 +1,18 @@
+function numfactorial(a){
+    if (a < 0){
+        return "Error!"
+    }
+    if (a == 0){
+        return 1
+    }
+    
+    else{
+        let factorial=1
+        while(a>1){
+            factorail=factorial*a
+            a=a-1
+        }
+        return factorial
+    }
+}
+console.log(numfactorail(5))
